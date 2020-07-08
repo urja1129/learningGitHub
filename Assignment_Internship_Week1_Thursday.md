@@ -4,7 +4,7 @@ A viral epidemic poses a threat to human life and the last resort to tackle it, 
 - [ ] *To create a dictionary consisting of drugs for viral diseases and its local name in different countries.*
 - [ ] *Differentiate drugs that work directly against the virus and the drugs that only work on symptoms.*
 
-## Tools :
+## *Tools* :
 - `getpapers` to obtain research papers.
 - use of `nodejs`, `nvm`, `cmd`
 - `ami` for dictionaries and sectioning.
@@ -15,7 +15,7 @@ A viral epidemic poses a threat to human life and the last resort to tackle it, 
 This comprises of top 950 articles retrieved from EuroPMC which is a platform that provides free acces to million of articles related to biomedical science. getpapers will be used to search and download these articles. The processing of the software is very quick (approx 10 minutes) which  which when downloaded individually could have taken 'n' number of hours. In this project such articles will be downloaded to study drugs related to viral epidemics.
 
 The other advantage of this project is we dont have to go through all the papers to understand the gist instead with the help of `ami : section` the papers are tabulated/sectioned  and one can go through all without reading them all and select the ones that is of interest. 
-## Course of Action
+## *Course of Action* :
 For this purpose, the following command will be executed :
 
 `getpapers -q "viral epidemics and drugs" -o dir_corpus950 -x -p -k 1000`
@@ -30,7 +30,7 @@ The command executed will be :
 # Drugs Dictionary
 Wikidata is an open-source database containing information stored semantically. Thus, applications of softwares could help us relate various properties of similar drugs and use it constructively. So, we will be creating a `dictionary` with an attempt to simplify the downloaded 950 articles and relate drugs with its usage. This would require application of 'machine learning' to achieve the same.
 
-## Course of Action
+## *Course of Action* :
 When all the files are downloaded and succesfully stored in our `dir_corpus950` directory, our next task is to generate the dictionary using `ami` tools. We will use the follwing command:
 
 `ami -p dir_corpus950 search --dictionary drugs`
