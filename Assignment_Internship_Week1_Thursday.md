@@ -41,4 +41,4 @@ When all the files are downloaded and succesfully stored in our `dir_corpus950` 
 1. To differentiate false positive and true positive, i.e to find papers that are related to "viral epidemic and drugs" and remove unnecessary ones.
 2. To find relationship between drugs, this may help in suggesting alternative drug for an epidemic.
 3. To segregate drugs that take action against the virus and the drugs that suppresses only the symptoms.
-4. Maintain a simplified drug dictionary that would be open to public.
+4. To maintain a simplified drug dictionary that would be open to public.
